@@ -44,7 +44,7 @@ cache:
   deployment_strategy: high_availability
   environment:
     - EXCLUDE_PORTS=443
-    - VIRTUAL_HOST=blog.part-up.com
+    - VIRTUAL_HOST
     - VIRTUAL_HOST_WEIGHT=100
   links:
     - 'bloglb:blog'
